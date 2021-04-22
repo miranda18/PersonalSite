@@ -1,2 +1,2 @@
 # PersonalSite
-The purpose of this personal site is to provide more insight on me, as well as additional practice on bootstrap. 
+The purpose of this personal site is to practice bootstrap, as well as provide more insight into myself. 
