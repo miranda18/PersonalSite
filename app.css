@@ -1,0 +1,68 @@
+ body{
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 1.7;
+ }
+
+ h1 {
+     font-size: 1.5em;
+ }
+
+img {
+    width: 200px;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+}
+
+img.d-block {
+    width: 400px; 
+    height: auto; 
+    overflow: hidden;
+}
+
+.social:hover {
+    border: 1px white solid;
+}
+
+/* Navbar */
+.nav-link {
+    color: #E6E4F1;
+}
+
+.nav-link:hover {
+    color: #fff; 
+    border-bottom: 2px white solid;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(230, 228, 241, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+/* Card Styles for Projects */
+.card {
+    height: 100%; 
+    font-size: 1em;
+}
+
+/* Carousel styles */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23331832' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23331832' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+/* Background Colors */
+.light-background {
+    background-color: #F3F2F8;
+}
+
+.medium-background {
+    background-color: #E6E4F1; 
+}
+
+.dark-background {
+    background-color: #331832;
+    color: white;
+}
